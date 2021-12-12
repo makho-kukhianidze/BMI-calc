@@ -1,0 +1,107 @@
+body{
+    background-image: url("../image/1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.main-container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 50px;
+}
+.one-box{
+    background: #cecbff;
+    padding: 17px;
+    text-align: center;
+}
+button{
+    margin-top: 20px;
+    background: white;
+    border: none;
+    padding: 6px;
+    color: #5c5c5c;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 15px;
+}
+button:hover{
+    margin-top: 20px;
+    background: rgb(241, 241, 241);
+    border: none;
+    padding: 6px;
+    color: #413f3f;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 15px;
+}
+.two-box{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 26px;
+    background: #b7b3fd;
+    border: 2px solid white;
+}
+.two-one-box{
+    width: 110px;
+    background: #4d9bdd;
+    margin: 18px;
+    color: white;
+    font-weight: 900;
+}
+.two-two-box{
+    width: 110px;
+    background: #62b565;
+    margin: 18px;
+    color: white;
+    font-weight: 900;
+}
+.two-three-box{
+    width: 110px;
+    background: #d99c43d1;
+    margin: 18px;
+    color: white;
+    font-weight: 900;
+}
+.two-four-box{
+    width: 110px;
+    background: #f14040c7;
+    margin: 18px;
+    color: white;
+    font-weight: 900;
+}
+label {
+    color: #3e3131;
+    font-weight: 900;
+}
+#calc{
+    font-size: 19px;
+    padding: 12px;
+    font-weight: 900;
+    color: white;
+}
+.divide{
+    margin: 12px;
+}
+label{
+    cursor: pointer;
+}
+input{
+    outline: none;
+    padding: 3px;
+    margin: 6px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="my project">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="author" content="Makho kukhianidze">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>BMI</title>
+    <link rel="icon" href="icons/m.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="one-box" id="mainBox">
+            <h1>Calculate Your Body Mass Index</h1>
+            <p id="calc"></p>
+            <div class="divide">
+                <label for="height">Write your height (cm)
+                    <input type="number" name="height" placeholder="Centimetres" id="height">
+                </label>
+            </div>
+            <div></div>
+            <div>
+                <label for="weight">Write your weight (kg)
+                    <input type="number" name="weight" placeholder="Kilograms" id="weight">
+                </label>
+            </div>
+            <button onclick="healthyWeight()">Calculate</button>
+            <button onclick="heightWeight()">Clear Info</button>
+            <div class="two-box">
+                <div class="two-one-box">
+                    <p>Underweight:</p>
+                    <p>18.5</p>
+                    <h4>category: 1 </h4>
+                </div>
+                <div class="two-two-box">
+                    <p>Normal weight:</p>
+                    <p>18.5 - 24.9</p>
+                    <h4>category: 2 </h4>
+                </div>
+                <div class="two-three-box">
+                    <p>Overweight:</p>
+                    <p>25 - 29.9</p>
+                    <h4>category: 3 </h4>
+                </div>
+                <div class="two-four-box">
+                    <p>Obesity:</p>
+                    <p>30 or greater</p>
+                    <h4>category: 4 </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/first.js"></script>
+</body>
+
+</html>
